@@ -1,0 +1,60 @@
+{
+  "name": "create-svelte-library",
+  "version": "0.1.0",
+  "description": "CLI for easily bootstrapping modern svelte libraries,",
+  "repository": "bunlong/create-svelte-library",
+  "author": "Bunlong <bunlong.van@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bin": {
+    "create-svelte-library": "index.js"
+  },
+  "scripts": {
+    "test": "ava -v && standard *.js lib/*.js"
+  },
+  "keywords": [
+    "svelte",
+    "library",
+    "module",
+    "package",
+    "cli",
+    "component",
+    "rollup",
+    "babel",
+    "publish"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^5.0.0",
+    "conf": "^2.2.0",
+    "cp-file": "^6.0.0",
+    "execa": "^4.0.0",
+    "git-config-path": "^2.0.0",
+    "github-username": "^5.0.1",
+    "globby": "^11.0.0",
+    "handlebars": "^4.7.4",
+    "inquirer": "^7.1.0",
+    "make-dir": "^3.0.2",
+    "ora": "^4.0.3",
+    "p-each-series": "^2.1.0",
+    "parse-git-config": "^3.0.0",
+    "validate-npm-package-name": "^3.0.0",
+    "which": "^2.0.2"
+  },
+  "devDependencies": {
+    "ava": "^3.5.2",
+    "rmfr": "^2.0.0",
+    "standard": "^14.3.3"
+  },
+  "ava": {
+    "failFast": true,
+    "timeout": "10m",
+    "files": [
+      "index.test.js",
+      "lib/**/*.test.js"
+    ]
+  }
+}
