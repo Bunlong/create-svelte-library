@@ -1,5 +1,10 @@
 {
-  "name": "SvelteComponent",
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "license": "{{license}}",
+  "repository": "{{repo}}",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
