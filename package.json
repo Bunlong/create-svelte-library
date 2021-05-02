@@ -1,8 +1,15 @@
 {
   "name": "create-svelte-library",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "CLI for easily bootstrapping modern svelte libraries,",
-  "repository": "bunlong/create-svelte-library",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bunlong/create-svelte-library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Bunlong/create-svelte-library.git/issues"
+  },
+  "homepage": "https://github.com/Bunlong/create-svelte-library",
   "author": "Bunlong <bunlong.van@gmail.com>",
   "main": "index.js",
   "license": "MIT",
