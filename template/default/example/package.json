@@ -1,6 +1,6 @@
 {
-  "name": "example",
-  "description": "",
+  "name": "{{name}}-example",
+  "description": "{{description}}",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
