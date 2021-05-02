@@ -6,6 +6,11 @@ CLI for creating reusable, modern Svelte libraries using Rollup.
 
 * Easy-to-use CLI
 * Handles all modern JS features
+* Bundles commonjs and es module formats
+* [Sapper](https://sapper.svelte.dev) for example usage and local dev
+* [Rollup](https://rollupjs.org/guide/en) for bundling
+* [Babel](https://babeljs.io) for transpiling
+* Thorough documentation
 
 ## Install globally
 
