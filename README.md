@@ -2,7 +2,7 @@
 
 CLI for creating reusable, modern Svelte libraries using Rollup.
 
-[![NPM](https://img.shields.io/npm/v/create-svelte-library.svg)](https://www.npmjs.com/package/create-svelte-library) ![npm bundle size](https://img.shields.io/bundlephobia/min/create-svelte-library) [![Build Status](https://api.travis-ci.com/Bunlong/create-svelte-library.svg?branch=master)](https://travis-ci.com/Bunlong/create-svelte-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/create-svelte-library.svg)](https://www.npmjs.com/package/create-svelte-library) [![Build Status](https://api.travis-ci.com/Bunlong/create-svelte-library.svg?branch=master)](https://travis-ci.com/Bunlong/create-svelte-library) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Features
 
