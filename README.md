@@ -16,13 +16,13 @@ CLI for creating reusable, modern Svelte libraries using Rollup.
 
 ## Install globally
 
-```sh
+```bash
 npm install -g create-svelte-library
 ```
 
 ## Usage with npx
 
-```sh
+```bash
 npx create-svelte-library
 ```
 
@@ -30,7 +30,7 @@ npx create-svelte-library
 
 ## Creating a New Module
 
-```sh
+```bash
 create-svelte-library
 ```
 
@@ -40,6 +40,34 @@ Answer some basic prompts about your module, and then the CLI will perform the f
 * install dependencies via yarn or npm
 * link packages together for local development
 * initialize local git repo
+
+## Development
+
+Local development is broken into two parts (ideally using two tabs).
+
+First, run rollup to build your `src/` module and automatically recompile it into `dist/` whenever you make changes.
+
+```bash
+npm run build # runs rollup
+```
+
+The second part will be running the `example/` sapper that's linked to the local version of your module.
+
+```bash
+cd example
+npm run dev # runs sapper dev server
+```
+
+Now, anytime you make a change to your library in `src/` or to the example app's `example/src`, sapper will reload your local dev server so you can iterate on your component in real-time.
+
+#### Publishing to npm
+
+```bash
+npm publish
+```
+
+This builds `commonjs` and `es` versions of your module to `dist/` and then publishes your module to `npm`.
+
 
 ## ❗ Issues
 
