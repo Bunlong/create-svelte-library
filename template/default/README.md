@@ -8,7 +8,9 @@ You can create a package that exports multiple components by adding them to the 
 
 ## Setting up
 
-* Run `npm init` (or `yarn init`)
+* Run `npm run build` (or `yarn run build`)
+* Run `cd example`
+* Run `npm run dev` (or `yarn run dev`) to get started
 * Replace this README with your own
 
 ## Consuming components
